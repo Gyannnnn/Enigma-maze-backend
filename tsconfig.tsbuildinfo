@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/controller/user.controller.ts","./src/routes/user.routes.ts"],"version":"5.7.2"}
+{"root":["./src/index.ts","./src/controller/score.controller.ts","./src/controller/user.controller.ts","./src/routes/score.routes.ts","./src/routes/user.routes.ts"],"version":"5.7.2"}

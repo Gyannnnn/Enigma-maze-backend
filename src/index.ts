@@ -2,6 +2,7 @@ require('dotenv').config()
 import express from 'express';
 import cors from 'cors';
 import userRouter from './routes/user.routes';
+import scoreRouter from './routes/score.routes';
 const app = express();
 
 app.use(cors());
@@ -19,6 +20,7 @@ app.get("/",(req,res)=>{
 
 
 app.use("/api/v1/user",userRouter);
+app.use("/api/v1/score",scoreRouter)
 
 
 app.listen(process.env.PORT || 3001,()=>{
